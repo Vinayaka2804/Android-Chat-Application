@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HW07</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">test</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="facebook_app_id">332894870415444</string>
+    <string name="et_email">Email</string>
+    <string name="et_password">Password</string>
+    <string name="et_password1">Confirm Password</string>
+    <string name="bt_login">Login</string>
+    <string name="bt_create">Create New Account</string>
+    <string name="bt_signup">Sign Up</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="ed_fullName">Full Name</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vinayak.hw07">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <uses-permission
+            android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+        <activity android:name="com.example.vinayak.hw07.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.vinayak.hw07.CreateProfile" />
+        <activity android:name="com.example.vinayak.hw07.LoginActivity" />
+        <activity android:name="com.example.vinayak.hw07.Messages" />
+        <activity android:name="com.example.vinayak.hw07.EditProfile" />
+        <activity android:name="com.example.vinayak.hw07.ProfileDetails" />
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name="com.example.vinayak.hw07.MyChat" />
+        <activity android:name="com.example.vinayak.hw07.SignUpActivity"></activity>
+    </application>
+
+</manifest>
